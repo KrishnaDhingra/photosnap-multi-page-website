@@ -1,10 +1,13 @@
 import './index.css'
+import Navbar from './components/navbar.js'
 
 function App() {
   return (
-    <div className="App bg-blue-300">
-      Hello everyone
+
+    <div className="App">
+      <Navbar></Navbar>
     </div>
+
   );
 }
 
