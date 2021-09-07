@@ -2,14 +2,14 @@ import React from 'react'
 
 function Navbar(){
     return(
-        <div className="navbar bg-white shadow-md flex justify-evenly px-0 lg:px-7 py-4 align-center">
-            <span className="logo text-black text-xl font-black my-auto tracking-wider">PHOTOSNAP</span>
-            <ul className="flex  text-sm font-medium tracking-widest">
-                <li className="mx-6 my-auto"><a href="">STORIES</a></li>
-                <li className="mx-6 my-auto"><a href="">FEATURES</a></li>
-                <li className="mx-6 my-auto"><a href="">PRICING</a></li>
+        <div className="navbar bg-white shadow-md flex justify-evenly px-0 lg:px-7 py-4 align-center font-body">
+            <span className="logo text-xl font-extrabold my-auto tracking-wide">PHOTOSNAP</span>
+            <ul className="flex  text-xs font-semibold tracking-widest">
+                <li className="mx-6 my-auto hover:text-gray-400 duration-300"><a href="">STORIES</a></li>
+                <li className="mx-6 my-auto hover:text-gray-400 duration-300"><a href="">FEATURES</a></li>
+                <li className="mx-6 my-auto hover:text-gray-400 duration-300"><a href="">PRICING</a></li>
             </ul>
-            <button className="get_invite px-7 bg-black text-white text-sm font-semibold py-2.5 tracking-widest">GET AN INVITE</button>
+            <button className="get_invite px-7 bg-black text-white text-sm font-semibold py-2.5 tracking-widest hover:bg-gray-200 hover:text-black duration-500">GET AN INVITE</button>
         </div>
     )
 }
