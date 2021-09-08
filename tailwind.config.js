@@ -7,7 +7,7 @@ module.exports = {
       height: {
         sm: '8px',
         md: '16px',
-        lg: '24px',
+        lg: '500px',
         xl: '700px',
       },
       fontFamliy:{
@@ -33,7 +33,16 @@ module.exports = {
         '1/2': '50%',
         '3/4': '75%',
         'full': '100%',
-       }
+       },
+       borderWidth: {
+        DEFAULT: '1px',
+        '0': '0',
+        '2': '1.5px',
+        '3': '3px',
+        '4': '4px',
+        '6': '6px',
+        '8': '8px',
+      }
     }
   },
   variants: {
