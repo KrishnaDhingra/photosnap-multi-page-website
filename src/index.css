@@ -7,7 +7,7 @@
 body {
   margin: 0;
 }
-/* @media only screen and (max-width: 4000px) {
+@media only screen and (max-width: 4000px) {
 
   .home1_right, .home2_right, .home3_right{
     background-image: url('https://raw.githubusercontent.com/zuolizhu/photosnap_frontendmentor/master/static/images/home/desktop/create-and-share.jpg');
@@ -21,7 +21,7 @@ body {
   .home3_right{
     background-image: url('https://raw.githubusercontent.com/zuolizhu/photosnap_frontendmentor/master/static/images/home/desktop/designed-for-everyone.jpg');
   }
-} */
+}
 
 
 @media only screen and (max-width: 1280px) {
