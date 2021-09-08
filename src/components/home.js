@@ -60,10 +60,3 @@ export let Home3 = () =>{
     )
 }
 
-{/* <img className="home1_image w-full h-full" src='https://raw.githubusercontent.com/zuolizhu/photosnap_frontendmentor/master/static/images/home/desktop/create-and-share.jpg' alt="" />
-
-<img className="home2_image w-full h-full" src='https://raw.githubusercontent.com/zuolizhu/photosnap_frontendmentor/master/static/images/home/desktop/beautiful-stories.jpg' alt="" />
-
-
-<img className="home3_image w-full h-full" src='https://raw.githubusercontent.com/zuolizhu/photosnap_frontendmentor/master/static/images/home/desktop/designed-for-everyone.jpg' alt="" /> */}
-
