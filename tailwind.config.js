@@ -8,7 +8,7 @@ module.exports = {
         sm: '8px',
         md: '16px',
         lg: '24px',
-        xl: '600px',
+        xl: '700px',
       },
       fontFamliy:{
         body:['DM Sans']
@@ -26,6 +26,13 @@ module.exports = {
          '5xl': '2.5rem',
          '6xl': '4rem',
         '7xl': '5rem',
+       },
+       minHeight: {
+        '0': '0',
+        '1/4': '25%',
+        '1/2': '50%',
+        '3/4': '75%',
+        'full': '100%',
        }
     }
   },

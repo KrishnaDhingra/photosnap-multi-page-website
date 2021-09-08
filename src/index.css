@@ -7,15 +7,43 @@
 body {
   margin: 0;
 }
+@media only screen and (max-width: 4000px) {
+
+  .home1_right, .home2_right, .home3_right{
+    background-image: url('https://raw.githubusercontent.com/zuolizhu/photosnap_frontendmentor/master/static/images/home/desktop/create-and-share.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .home2_right{
+    background-image: url('https://raw.githubusercontent.com/zuolizhu/photosnap_frontendmentor/master/static/images/home/desktop/beautiful-stories.jpg');
+  }
+  .home3_right{
+    background-image: url('https://raw.githubusercontent.com/zuolizhu/photosnap_frontendmentor/master/static/images/home/desktop/designed-for-everyone.jpg');
+  }
+}
+
+
 @media only screen and (max-width: 1280px) {
-  .home1_image{
-    content: url('https://github.com/zuolizhu/photosnap_frontendmentor/blob/master/static/images/home/tablet/create-and-share.jpg?raw=true')
+  .home1_right{
+    background-image: url('https://github.com/zuolizhu/photosnap_frontendmentor/blob/master/static/images/home/tablet/create-and-share.jpg?raw=true');
   }
-  .home2_image{
-    content: url('https://github.com/zuolizhu/photosnap_frontendmentor/blob/master/static/images/home/tablet/beautiful-stories.jpg?raw=true')
+  .home2_right{
+    background-image: url('https://github.com/zuolizhu/photosnap_frontendmentor/blob/master/static/images/home/tablet/beautiful-stories.jpg?raw=true');
   }
-  .home3_image{
-    content: url('https://github.com/zuolizhu/photosnap_frontendmentor/blob/master/static/images/home/tablet/designed-for-everyone.jpg?raw=true')
+  .home3_right{
+    background-image: url('https://github.com/zuolizhu/photosnap_frontendmentor/blob/master/static/images/home/tablet/designed-for-everyone.jpg?raw=true');
+  }
+}
+@media only screen and (max-width: 642px){
+  .home1_right{
+    background-image: url('https://raw.githubusercontent.com/zuolizhu/photosnap_frontendmentor/master/static/images/home/mobile/create-and-share.jpg');
+  }
+  .home2_right{
+    background-image: url('https://github.com/zuolizhu/photosnap_frontendmentor/blob/master/static/images/home/mobile/beautiful-stories.jpg?raw=true');
+  }
+  .home3_right{
+    background-image: url('https://github.com/zuolizhu/photosnap_frontendmentor/blob/master/static/images/home/mobile/designed-for-everyone.jpg?raw=true');
   }
 }
 
