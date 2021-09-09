@@ -7,7 +7,7 @@ export const Heading = (props) =>{
     return <h1 className="text-4xl md:text-5xl leading-snug font-bold tracking-widest text-white w-full md:w-96">{props.heading}</h1>
 }
 export const TextDark = (props) =>{
-    return <p className="text-gray-700 font-normal text-md leading-6 w-full md:w-96 tracking-wide">{props.text}</p>
+    return <p className="text-gray-600 font-normal text-md leading-6 w-full md:w-96 tracking-wide">{props.text}</p>
 }
 export const HeadingDark = (props) =>{
     return <h1 className="text-4xl md:text-5xl leading-snug font-bold tracking-widest text-black w-full md:w-96">{props.heading}</h1>

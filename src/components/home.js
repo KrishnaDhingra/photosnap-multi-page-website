@@ -43,7 +43,7 @@ export let Home2 = () =>{
 
 export let Home3 = () =>{
     return(
-        <div className="home3 h-xl bg-blue-100 flex font-body flex-col-reverse sm:flex-row">
+        <div className="home3 h-xl bg-blue-100 flex font-body flex-col-reverse sm:flex-row mb-0">
             
             <div className=" py-10 home1_left w-full sm:w-3/5 xl:w-2/5 h-full bg-white flex flex-col gap-7 justify-center pl-8 md:pl-20 2xl:pl-32">
 

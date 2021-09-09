@@ -7,32 +7,9 @@
 body {
   margin: 0;
 }
-.stories_preview1, .stories_preview2, .stories_preview3, .stories_preview4{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4),
-  rgba(0, 0, 0, 0.4)), url('https://github.com/KrishnaDhingra/photosnap_frontendmentor/blob/master/static/images/stories/desktop/mountains.jpg?raw=true');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  transition: all 0.4s;
-  
-}
-.stories_preview1:hover, .stories_preview2:hover, .stories_preview3:hover, .stories_preview4:hover{
-  transform: translateY(-1rem);
-}
-.stories_preview2{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4),
-  rgba(0, 0, 0, 0.4)), url('https://github.com/KrishnaDhingra/photosnap_frontendmentor/blob/master/static/images/stories/desktop/cityscapes.jpg?raw=true');
 
-}
-.stories_preview3{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4),
-  rgba(0, 0, 0, 0.4)), url('https://github.com/KrishnaDhingra/photosnap_frontendmentor/blob/master/static/images/stories/desktop/18-days-voyage.jpg?raw=true');
-
-}
-.stories_preview4{
-  background-image:linear-gradient(rgba(0, 0, 0, 0.4),
-  rgba(0, 0, 0, 0.4)), url('https://github.com/KrishnaDhingra/photosnap_frontendmentor/blob/master/static/images/stories/desktop/architecturals.jpg?raw=true');
-
+.stories_preview_container{
+  transform: translateY(-5rem);
 }
 @media only screen and (max-width: 4000px) {
 
