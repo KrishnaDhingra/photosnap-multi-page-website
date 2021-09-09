@@ -9,6 +9,7 @@ const Stories = styled.div`
     background-size: cover;
     background-position: center;
     transition: all 0.4s;
+    overflow: hidden;
 
     &:hover{
         transform: translateY(-1rem);
