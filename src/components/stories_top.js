@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { Heading, GetInvite, Text } from './basic_components'
 import { Stories_Preview, Stories_Preview_Container, Stories_Photographer, Stories_Heading } from './stories_preview'
+import { CgArrowLongRight } from "react-icons/cg";
 import { stories_data } from './data.js'
 
 const Stories_top = styled.div`

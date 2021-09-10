@@ -21,3 +21,4 @@ export const GetInvite = (props) =>{
 export const GetInviteDark = (props) =>{
     return <p className="invite_text text-black text-sm font-semibold tracking-wider mt-2 hover:underline">{props.text}</p>
 }
+

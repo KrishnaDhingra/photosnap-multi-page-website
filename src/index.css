@@ -11,6 +11,19 @@ body {
 .stories_preview_container{
   transform: translateY(-5rem);
 }
+.arrow, .dark_arrow{
+  transition: all 0.7s;
+  color: white;
+  font-size: 2rem;
+  font-weight: 400;
+  transform: translateY(3px);
+}
+.dark_arrow{
+  color: black;
+}
+.arrow:hover, .dark_arrow:hover{
+  transform: translate(-1rem, 3px);
+}
 @media only screen and (max-width: 4000px) {
 
   .home1_right, .home2_right, .home3_right{

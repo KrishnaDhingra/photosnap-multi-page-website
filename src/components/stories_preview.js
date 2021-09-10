@@ -2,6 +2,7 @@ import React from 'react'
 import styled  from 'styled-components'
 import { GetInvite } from './basic_components.js'
 import { preview_stories_data } from './data.js'
+import { CgArrowLongRight } from "react-icons/cg";
 
 const Stories = styled.div`
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),
@@ -37,7 +38,10 @@ export let Stories_Preview = (props) =>{
             <Stories_Heading heading={props.heading}/>
             <Stories_Photographer text={props.text}/>
             <Divider/>
-            <GetInvite text={'READ STORY'}/>
+            <div className="flex justify-between">
+                <GetInvite text={'READ STORY'}/>
+                <CgArrowLongRight className="arrow"/>
+            </div>
         </Stories>
     )
 

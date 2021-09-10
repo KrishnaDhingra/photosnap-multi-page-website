@@ -1,5 +1,6 @@
 import React from 'react'
 import { Text, Heading, TextDark, HeadingDark, GetInvite, GetInviteDark } from './basic_components'
+import { CgArrowLongRight } from "react-icons/cg";
 
 export let Home1 = () =>{
     return(
@@ -10,9 +11,11 @@ export let Home1 = () =>{
                 <Heading heading={'CREATE AND SHARE YOUR PHOTO STORIES.'}/>
 
                 <Text text={'Photosnap is a platform for photographers and visual storytellers. We make it easy to share photos, tell stories and connect with others.'}/>
-
-                <GetInvite text={'GET AN INVITE'}/>
-                <img src="https://github.com/zuolizhu/photosnap_frontendmentor/blob/master/static/images/shared/desktop/arrow-white.svg" alt="white-arrow"/>
+                
+                <div className="flex gap-8 duration-1000 arrow_container">
+                    <GetInvite text={'GET AN INVITE'}/>
+                    <CgArrowLongRight className="arrow"/>
+                </div>
 
             </div>
 
@@ -32,7 +35,10 @@ export let Home2 = () =>{
 
                 <TextDark text={'We provide design templates to ensure your stories look terrific. Easily add photos, text, embed maps and media from other networks. Then share your story with everyone.'}/>
 
-                <GetInviteDark text={'GET AN INVITE'}/>
+                <div className="flex gap-8 duration-1000 arrow_container">
+                    <GetInviteDark text={'VIEW THE STORIES'}/>
+                    <CgArrowLongRight className="dark_arrow"/>
+                </div>
 
             </div>
 
@@ -52,7 +58,10 @@ export let Home3 = () =>{
 
                 <TextDark text={'Photosnap can help you create stories that resonate with your audience. Our tool is designed for photographers of all levels, brands, businesses you name it.'}/>
 
-                <GetInviteDark text={'GET AN INVITE'}/>
+                <div className="flex gap-8 duration-1000 arrow_container">
+                    <GetInviteDark text={'VIEW THE STORIES'}/>
+                    <CgArrowLongRight className="dark_arrow"/>
+                </div>
 
             </div>
 
