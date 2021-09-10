@@ -33,10 +33,11 @@ export let Stories_Preview_Container = () =>{
 export let Stories_Preview = (props) =>{
     return(
         <Stories className="stories_preview1 bg-blue-200 h-lg flex flex-col p-10 justify-end" image={props.image}>
+            <Stories_Photographer text={props.date}/>
             <Stories_Heading heading={props.heading}/>
             <Stories_Photographer text={props.text}/>
             <Divider/>
-            <GetInvite className="">READ MORE</GetInvite>
+            <GetInvite text={'READ STORY'}/>
         </Stories>
     )
 

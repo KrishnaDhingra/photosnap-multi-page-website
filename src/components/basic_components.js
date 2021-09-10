@@ -16,8 +16,8 @@ export const Logo = () =>{
     return <span className="logo text-xl font-extrabold my-auto tracking-wide">PHOTOSNAP</span>
 }
 export const GetInvite = (props) =>{
-    return <p className="invite_text text-white text-sm font-semibold tracking-wider">{props.text}</p>
+    return <p className="invite_text text-white text-sm font-semibold tracking-wider mt-2">{props.text}</p>
 }
 export const GetInviteDark = (props) =>{
-    return <p className="invite_text text-black text-sm font-semibold tracking-wider">{props.text}</p>
+    return <p className="invite_text text-black text-sm font-semibold tracking-wider mt-2">{props.text}</p>
 }
