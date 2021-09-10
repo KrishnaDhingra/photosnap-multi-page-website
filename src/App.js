@@ -4,6 +4,7 @@ import { Home1, Home2, Home3 } from './components/home.js'
 import { Stories_Preview_Container } from './components/stories_preview.js';
 import { FeautresContainer } from './components/features.js'
 import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom'
+import { Stories_Top, StoriesMain } from './components/stories_top';
 
 
 export let App = () => {
@@ -12,12 +13,14 @@ export let App = () => {
 
       <div className="App">
         <Navbar/>
-        <Switch>
+        <Stories_Top/>
+        <StoriesMain/>
+        {/* <Switch>
           <Route path="/" exact component={Home}/>
           <Route path="/stories" exact component={Stories}/>
           <Route path="/features" exact component={Features}/>
           <Route path="/pricing" exact component={Pricing}/>
-        </Switch>
+        </Switch> */}
       </div>
     </Router>
 

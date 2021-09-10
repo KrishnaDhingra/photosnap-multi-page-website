@@ -9,7 +9,7 @@ body {
 }
 
 .stories_preview_container{
-  /* transform: translateY(-2rem); */
+  transform: translateY(-2rem);
 }
 @media only screen and (max-width: 4000px) {
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import styled  from 'styled-components'
-import { GetInvite } from './basic_components'
+import { GetInvite } from './basic_components.js'
+import { preview_stories_data } from './data.js'
 
 const Stories = styled.div`
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),
@@ -19,13 +20,11 @@ const Stories = styled.div`
 export let Stories_Preview_Container = () =>{
     return(
         <div className="stories_preview_container grid grid-cols-1 sm:grid-cols-2 py-20 xl:grid-cols-4">
-            <Stories_Preview image={'https://github.com/KrishnaDhingra/photosnap_frontendmentor/blob/master/static/images/stories/desktop/mountains.jpg?raw=true'} heading={'The Mountains'} text={'by John Appleseed'}/>
-
-            <Stories_Preview image={'https://github.com/KrishnaDhingra/photosnap_frontendmentor/blob/master/static/images/stories/desktop/cityscapes.jpg?raw=true'} heading={'Sunset Cityscapes'} text={'by Benjamin Cruz'}/>
-
-            <Stories_Preview image={'https://github.com/KrishnaDhingra/photosnap_frontendmentor/blob/master/static/images/stories/desktop/18-days-voyage.jpg?raw=true'} heading={'18 Days Voyage'} text={'by Alexie Borodin'}/>
-
-            <Stories_Preview image={'https://github.com/KrishnaDhingra/photosnap_frontendmentor/blob/master/static/images/stories/desktop/architecturals.jpg?raw=true'} heading={'Architecturals'} text={'by Samantha Brooke'}/>
+            {preview_stories_data.map(element =>{
+                return (
+                        <Stories_Preview image={element.image} heading={'The Mountains'} text={element.photographer} heading={element.heading}/>
+                )
+            })}
 
         </div>
     )

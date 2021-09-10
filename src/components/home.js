@@ -11,7 +11,7 @@ export let Home1 = () =>{
 
                 <Text text={'Photosnap is a platform for photographers and visual storytellers. We make it easy to share photos, tell stories and connect with others.'}/>
 
-                <GetInvite/>
+                <GetInvite text={'GET AN INVITE'}/>
 
             </div>
 
@@ -31,7 +31,7 @@ export let Home2 = () =>{
 
                 <TextDark text={'We provide design templates to ensure your stories look terrific. Easily add photos, text, embed maps and media from other networks. Then share your story with everyone.'}/>
 
-                <GetInviteDark/>
+                <GetInviteDark text={'GET AN INVITE'}/>
 
             </div>
 
@@ -51,7 +51,7 @@ export let Home3 = () =>{
 
                 <TextDark text={'Photosnap can help you create stories that resonate with your audience. Our tool is designed for photographers of all levels, brands, businesses you name it.'}/>
 
-                <GetInviteDark/>
+                <GetInviteDark text={'GET AN INVITE'}/>
 
             </div>
 
