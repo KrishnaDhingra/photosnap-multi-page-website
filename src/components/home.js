@@ -12,6 +12,7 @@ export let Home1 = () =>{
                 <Text text={'Photosnap is a platform for photographers and visual storytellers. We make it easy to share photos, tell stories and connect with others.'}/>
 
                 <GetInvite text={'GET AN INVITE'}/>
+                <img src="https://github.com/zuolizhu/photosnap_frontendmentor/blob/master/static/images/shared/desktop/arrow-white.svg" alt="white-arrow"/>
 
             </div>
 

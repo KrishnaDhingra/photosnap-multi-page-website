@@ -13,14 +13,12 @@ export let App = () => {
 
       <div className="App">
         <Navbar/>
-        <Stories_Top/>
-        <StoriesMain/>
-        {/* <Switch>
+        <Switch>
           <Route path="/" exact component={Home}/>
           <Route path="/stories" exact component={Stories}/>
           <Route path="/features" exact component={Features}/>
           <Route path="/pricing" exact component={Pricing}/>
-        </Switch> */}
+        </Switch>
       </div>
     </Router>
 
@@ -40,7 +38,10 @@ export let Home = () => {
 }
 export let Stories = () => {
   return (
-    <Stories_Preview_Container/>
+    <>
+      <Stories_Top/>
+      <StoriesMain/>
+    </>
   )
 }
 
