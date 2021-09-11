@@ -36,6 +36,10 @@ body {
   margin-top: auto;
   background-color: blue;
 } */
+.footer_logo:hover{
+  transition: all 0.2s;
+  transform: translateY(-2.8px);
+}
 @media only screen and (max-width: 640px) {
   .footer_ul{
     align-items: center;

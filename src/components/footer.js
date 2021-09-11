@@ -24,11 +24,11 @@ export let Footer = () => {
                         </ul>
                         </>
                         <div className="flex gap-4 items-center mt-2 sm:mt-0">
-                            <span className="text-white text-xl sm:text-2xl"><FaFacebookSquare/></span>
-                            <span className="text-white text-xl sm:text-2xl"><IoLogoYoutube/></span>
-                            <span className="text-white text-xl sm:text-2xl"><FaTwitter/></span>
-                            <span className="text-white text-xl sm:text-2xl"><FaInstagram/></span>
-                            <span className="text-white text-xl sm:text-2xl"><AiOutlineWhatsApp/></span>
+                            <span className="text-white text-xl sm:text-2xl footer_logo"><FaFacebookSquare/></span>
+                            <span className="text-white text-xl sm:text-2xl footer_logo"><IoLogoYoutube/></span>
+                            <span className="text-white text-xl sm:text-2xl footer_logo"><FaTwitter/></span>
+                            <span className="text-white text-xl sm:text-2xl footer_logo"><FaInstagram/></span>
+                            <span className="text-white text-xl sm:text-2xl footer_logo"><AiOutlineWhatsApp/></span>
                         </div>
                     </div>
                     <ul className="footer_ul flex sm:hidden lg:flex flex-col items-left text-xs font-semibold tracking-widest justify-evenly mt-7 sm:mt-0">
