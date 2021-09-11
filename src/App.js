@@ -21,6 +21,7 @@ export let App = () => {
           <Route path="/features" exact component={Features}/>
           <Route path="/pricing" exact component={Pricing}/>
         </Switch>
+        <Footer/>
       </div>
     </Router>
 
@@ -35,7 +36,6 @@ export let Home = () => {
       <Home3/>
       <Stories_Preview_Container/>
       <FeaturesContainer/>
-      <Footer/>
     </>
   )
 }
