@@ -49,7 +49,7 @@ body {
 }
 @media only screen and (max-width: 4000px) {
 
-  .home1_right, .home2_right, .home3_right{
+  .home1_right, .home2_right, .home3_right, .features_right{
     background-image:url('https://raw.githubusercontent.com/zuolizhu/photosnap_frontendmentor/master/static/images/home/desktop/create-and-share.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,6 +60,9 @@ body {
   }
   .home3_right{
     background-image: url('https://raw.githubusercontent.com/zuolizhu/photosnap_frontendmentor/master/static/images/home/desktop/designed-for-everyone.jpg');
+  }
+  .features_right{
+    background-image:url('https://photosnap-frontendmentor.vercel.app/images/features/desktop/hero.jpg');
   }
 }
 
@@ -74,6 +77,9 @@ body {
   .home3_right{
     background-image: url('https://github.com/zuolizhu/photosnap_frontendmentor/blob/master/static/images/home/tablet/designed-for-everyone.jpg?raw=true');
   }
+  .features_right{
+    background-image:url('https://photosnap-frontendmentor.vercel.app/images/features/tablet/hero.jpg');
+  }
 }
 @media only screen and (max-width: 642px){
   .home1_right{
@@ -84,6 +90,9 @@ body {
   }
   .home3_right{
     background-image: url('https://github.com/zuolizhu/photosnap_frontendmentor/blob/master/static/images/home/mobile/designed-for-everyone.jpg?raw=true');
+  }
+  .features_right{
+    background-image:url('https://photosnap-frontendmentor.vercel.app/images/features/mobile/hero.jpg');
   }
 }
 

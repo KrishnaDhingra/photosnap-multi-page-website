@@ -5,7 +5,7 @@ import { features_data } from './data.js'
 
 export let Features_Top = () =>{
     return(
-        <div className="home1 h-lg bg-blue-100 flex font-body flex-col-reverse sm:flex-row">
+        <div className="footer_top h-lg bg-blue-100 flex font-body flex-col-reverse sm:flex-row">
             
             <div className=" py-10 home1_left w-full sm:w-3/5 xl:w-2/5 h-full bg-black flex flex-col gap-7 justify-center pl-4 md:pl-20 2xl:pl-32">
 
@@ -15,7 +15,7 @@ export let Features_Top = () =>{
 
             </div>
 
-            <div className="home1_right w-full sm:w-2/5 xl:w-3/5 h-full bg-green-200 overflow-y-hidden"></div>
+            <div className="features_right w-full sm:w-2/5 xl:w-3/5 h-full bg-green-200 overflow-y-hidden"></div>
         </div>
     )
 }
