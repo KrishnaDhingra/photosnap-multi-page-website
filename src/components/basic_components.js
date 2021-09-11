@@ -15,6 +15,9 @@ export const HeadingDark = (props) =>{
 export const Logo = () =>{
     return <span className="logo text-xl font-extrabold my-auto tracking-wide">PHOTOSNAP</span>
 }
+export const LogoLight = () => {
+    return <span className="text-white logo text-xl font-extrabold tracking-wide">PHOTOSNAP</span>
+}
 export const GetInvite = (props) =>{
     return <p className="invite_text text-white text-sm font-semibold tracking-wider mt-2 hover:underline">{props.text}</p>
 }

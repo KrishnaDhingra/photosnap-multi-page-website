@@ -2,9 +2,11 @@ import './index.css'
 import Navbar from './components/navbar.js'
 import { Home1, Home2, Home3 } from './components/home.js'
 import { Stories_Preview_Container } from './components/stories_preview.js';
-import { FeautresContainer } from './components/features.js'
+import { FeaturesContainer } from './components/features.js'
 import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom'
-import { Stories_Top, StoriesMain } from './components/stories_top';
+import { Stories_Top, StoriesMain } from './components/stories_top.js';
+import { Features_Top, Main_Features_Container } from './components/features_top.js'
+import { Footer } from './components/footer.js'
 
 
 export let App = () => {
@@ -32,7 +34,8 @@ export let Home = () => {
       <Home2/>
       <Home3/>
       <Stories_Preview_Container/>
-      <FeautresContainer/>
+      <FeaturesContainer/>
+      <Footer/>
     </>
   )
 }
@@ -47,7 +50,10 @@ export let Stories = () => {
 
 export let Features = () => {
   return(
-    <FeautresContainer/>
+    <>
+      <Features_Top/>
+      <Main_Features_Container/>
+    </>
   )
 }
 

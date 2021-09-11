@@ -24,6 +24,25 @@ body {
 .arrow:hover, .dark_arrow:hover{
   transform: translate(-1rem, 3px);
 }
+.home1::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  height: 20%;
+  width: 7px;
+  transform: translateY(100%);
+  margin-top: auto;
+  background-color: blue;
+}
+@media only screen and (max-width: 640px) {
+  .footer_ul{
+    align-items: center;
+    margin-top: 1.4rem;
+  }
+  .footer_ul li a{
+    font-size: 0.7rem;
+  }
+}
 @media only screen and (max-width: 4000px) {
 
   .home1_right, .home2_right, .home3_right{

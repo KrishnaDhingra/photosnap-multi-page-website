@@ -20,7 +20,7 @@ const Stories = styled.div`
 
 export let Stories_Preview_Container = () =>{
     return(
-        <div className="stories_preview_container grid grid-cols-1 sm:grid-cols-2 py-20 xl:grid-cols-4">
+        <div className="stories_preview_container grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4">
             {preview_stories_data.map(element =>{
                 return (
                         <Stories_Preview image={element.image} heading={'The Mountains'} text={element.photographer} heading={element.heading}/>
