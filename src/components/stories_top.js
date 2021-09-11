@@ -15,11 +15,11 @@ const Stories_top = styled.div`
 export let Stories_Top = () => {
     return(
         <>
-        <Stories_top className="w-full h-md sm:h-xl bg-blue-300 flex">
+        <Stories_top className="w-full h-md sm:h-xl bg-blue-300 flex overflow-x-hidden">
             <div className="hidden sm:flex flex-col sm:px-16 lg:px-36 gap-6 justify-center">
                 <GetInvite text={"LAST MONTH'S FEATURED STORY"}/>
                 <Heading heading={'HAZY FULL MOON OF APPALACHIA'}/>
-                <div className="flex w-64 items-center">
+                <div className="flex w-72 items-center">
                     <Stories_Photographer text={'March 2nd 2020'}/>
                     <Stories_Photographer text={'by John Appleseed'}/>
                 </div>
@@ -31,7 +31,7 @@ export let Stories_Top = () => {
             <div className="flex sm:hidden flex-col px-8 sm:px-16 lg:px-36 gap-6 justify-center bg-black w-full py-12">
                 <GetInvite text={"LAST MONTH'S FEATURED STORY"}/>
                 <Heading heading={'HAZY FULL MOON OF APPALACHIA'}/>
-                <div className="flex w-64 items-center">
+                <div className="flex flex-col sm:flex-row w-64 items-center overflow-x-hidden">
                     <Stories_Photographer text={'March 2nd 2020'}/>
                     <Stories_Photographer text={'by John Appleseed'}/>
                 </div>
