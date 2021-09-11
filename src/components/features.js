@@ -4,7 +4,7 @@ import { preview_features_data } from './data.js'
 
 export const FeaturesContainer = () => {
     return(
-        <div className="flex flex-col-3 flex-wrap gap-10 mx-auto justify-center items-center px-2 sm:px-10 m-10">
+        <div className="flex flex-col-3 flex-wrap gap-10 mx-auto justify-center items-center px-2 sm:px-10 m-20 mb-32">
             {preview_features_data.map(element =>{
                 return (
 

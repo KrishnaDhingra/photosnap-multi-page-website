@@ -12,7 +12,7 @@ function Navbar(){
                 <Link to="/features"><li className="mx-6 my-auto hover:text-gray-400 duration-300"><a href="">FEATURES</a></li></Link>
                 <Link to="/pricing"><li className="mx-6 my-auto hover:text-gray-400 duration-300"><a href="">PRICING</a></li></Link>
             </ul>
-            <button className="hidden md:flex get_invite px-7 bg-black text-white text-sm font-semibold py-2.5 tracking-widest hover:bg-gray-200 hover:text-black duration-500">GET AN INVITE</button>
+            <button className="hidden md:flex get_invite px-7 bg-black text-white text-xs font-semibold py-2.5 tracking-widest hover:bg-gray-200 hover:text-black duration-500">GET AN INVITE</button>
             <div className="md:hidden flex flex-col justify-around items-center h-3 my-auto">
                 <div className="border-t-2 border-black w-6 m-0"></div>
                 <div className="border-t-2 border-black w-6 m-0"></div>

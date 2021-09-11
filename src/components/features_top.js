@@ -5,7 +5,7 @@ import { features_data } from './data.js'
 
 export let Features_Top = () =>{
     return(
-        <div className="home1 h-lg bg-blue-100 flex font-body flex-col-reverse sm:flex-row mb-28">
+        <div className="home1 h-lg bg-blue-100 flex font-body flex-col-reverse sm:flex-row">
             
             <div className=" py-10 home1_left w-full sm:w-3/5 xl:w-2/5 h-full bg-black flex flex-col gap-7 justify-center pl-4 md:pl-20 2xl:pl-32">
 
@@ -21,7 +21,7 @@ export let Features_Top = () =>{
 }
 export let Main_Features_Container = () => {
     return(
-        <div className="flex flex-col-3 flex-wrap gap-10 mx-auto justify-center items-center px-2 sm:px-10 m-20">
+        <div className="flex flex-col-3 flex-wrap gap-10 mx-auto justify-center items-center px-2 sm:px-10 m-24 mb-32">
             {features_data.map(element =>{
                 return (
 
