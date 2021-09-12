@@ -8,6 +8,7 @@ import { Stories_Top, StoriesMain } from './components/stories_top.js';
 import { Features_Top, Main_Features_Container } from './components/features_top.js'
 import { Footer } from './components/footer.js'
 import { Features_Invite } from './components/features_invite.js'
+import { PricingChartContainer } from './components/pricing_chart.js'
 
 
 export let App = () => {
@@ -63,6 +64,7 @@ export let Pricing = () => {
   return(
     <>
       <Features_Top heading={'PRICING'} text={'Create a your stories, Photosnap is a platform for photographers and visual storytellers. It’s the simple way to create and share your photos.'}/>
+      <PricingChartContainer/>
       <Features_Invite/>
     </>
   )
