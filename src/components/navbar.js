@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom'
 const NavbarContainer = styled.div`
     position: relative;
 
-
     
     .active{
+        display: flex;
         flex-direction: column;
         align-items: center;
         position: absolute;
@@ -56,7 +56,7 @@ function Navbar(){
 
     const [isActive, setActive] = useState(false)
     return(
-        <NavbarContainer className="navbar bg-white flex justify-between md:justify-evenly px-4 sm:px-8 md:px-0 lg:px-7 py-4 items-center font-body" toggle={isActive}>
+        <NavbarContainer className="navbar bg-white flex justify-between md:justify-evenly px-4 sm:px-8 md:px-0 lg:px-7 py-4 items-center font-body">
 
             <Link to="/"><Logo/></Link>
             <ul className="hidden md:flex text-xs font-semibold tracking-widest">
@@ -64,8 +64,7 @@ function Navbar(){
                 <Link to="/features"><li className="mx-6 my-auto hover:text-gray-400 duration-300"><a href="">FEATURES</a></li></Link>
                 <Link to="/pricing"><li className="mx-6 my-auto hover:text-gray-400 duration-300"><a href="">PRICING</a></li></Link>
             </ul>
-            <div className={isActive ? "active flex md:flex" : "hidden md:flex"}>
-
+            <div className={isActive ? "active flex md:hidden" : "hidden md:hidden"}>
                 <ul className={isActive ? "active_ul flex text-xs font-semibold tracking-widest" : "flex text-xs font-semibold tracking-widest"}>
                     <Link to="/stories"><li className="mx-6 my-auto hover:text-gray-400 duration-300"><a href="">STORIES</a></li></Link>
                     <Link to="/features"><li className="mx-6 my-auto hover:text-gray-400 duration-300"><a href="">FEATURES</a></li></Link>
