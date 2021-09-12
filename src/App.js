@@ -17,6 +17,9 @@ export let App = () => {
 
       <div className="App">
         <Navbar/>
+        <Link to="/stories"><button className="bg-gray-200 border-2 border-black rounded text-sm px-8 py-1">STORIES</button></Link>
+        <Link to="/features"><button className="bg-gray-200 border-2 border-black rounded text-sm px-8 py-1">FEATURES</button></Link>
+        <Link to="/pricing"><button className="bg-gray-200 border-2 border-black rounded text-sm px-8 py-1">PRICING</button></Link>
         <Switch>
           <Route path="/" exact component={Home}/>
           <Route path="/stories" exact component={Stories}/>
