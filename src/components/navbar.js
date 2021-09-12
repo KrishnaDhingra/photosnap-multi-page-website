@@ -20,6 +20,13 @@ const NavbarContainer = styled.div`
         border-top: 1px solid rgba(0, 0, 0, 0.2);
         gap: 1rem;
     }
+    .active_hamburger_icon .first_child{
+        transition: all 0.4s;
+        transform: translate(0px, 6px) rotate(45deg);
+    }
+    .active_hamburger_icon .second_child{
+        transform: rotate(-45deg);
+    }
     @media (max-width: 768px){
         .active_button{
             width: 80vw;
@@ -73,9 +80,11 @@ function Navbar(){
                 <button className="active_button flex md:hidden get_invite px-7 bg-black text-white text-xs font-semibold py-2.5 tracking-widest hover:bg-gray-200 hover:text-black duration-500">GET AN INVITE</button>
             </div>
             <button className="hidden md:flex get_invite px-7 bg-black text-white text-xs font-semibold py-2.5 tracking-widest hover:bg-gray-200 hover:text-black duration-500">GET AN INVITE</button>
-            <div className="md:hidden flex flex-col justify-around items-center h-3 my-auto" onClick={() => setActive(!isActive)}>
-                <div className="border-t-2 border-black w-6 m-0"></div>
-                <div className="border-t-2 border-black w-6 m-0"></div>
+
+            <div className={isActive ? "active_hamburger_icon md:hidden flex flex-col justify-around items-center h-3 my-auto" : " md:hidden flex flex-col justify-around items-center h-3 my-auto"} onClick={() => setActive(!isActive)}>
+
+                <div className="first_child border-t-2 border-black w-6 m-0"></div>
+                <div className="second_child border-t-2 border-black w-6 m-0"></div>
             </div>
         </NavbarContainer>
     )
