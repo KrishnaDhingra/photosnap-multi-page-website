@@ -16,7 +16,7 @@ export let PricingChartContainer = () => {
 }
 export let PricingBlack = (props) => {
     return (
-        <div className="pricing_black_container relative flex bg-black flex-col gap-4 md:items-left xl:items-center justify-center px-4 sm:px-8 py-8 sm:py-16 box-border flex-shrink xl:w-full lg:w-3/4 md:w-full">
+        <div className="pricing_black_container relative flex bg-black flex-col gap-4 md:items-left xl:items-center justify-center px-4 sm:px-8 py-8 xl:py-16 box-border flex-shrink xl:w-full lg:w-3/4 md:w-full">
             <PricingChartHeadingLight heading={props.heading}/>
             <Text text={props.text}/>  
             <div className="flex flex-col md:absolute xl:relative top-0 right-0">       
@@ -29,7 +29,7 @@ export let PricingBlack = (props) => {
 }
 export let PricingGray = (props) => {
     return (
-        <div className="relative flex bg-gray-100 flex-col gap-4 md:items-left xl:items-center justify-center px-4 sm:px-8 py-8 sm:py-16 box-border flex-shrink xl:w-full lg:w-3/4 md:w-full">
+        <div className="relative flex bg-gray-100 flex-col gap-4 md:items-left xl:items-center justify-center px-4 sm:px-8 py-8 xl:py-16 box-border flex-shrink xl:w-full lg:w-3/4 md:w-full">
             <PricingChartHeadingDark heading={props.heading}/>
             <TextDark text={props.text}/>   
             <div className="flex flex-col md:absolute xl:relative top-0 right-0">
@@ -47,10 +47,10 @@ export let PricingChartHeadingDark = (props) => {
     return  <span className="text-black text-2xl font-extrabold my-auto tracking-wide text-center md:text-left xl:text-center">{props.heading}</span>
 }
 export let PriceDark = (props) => {
-    return <span className="text-black text-4xl sm:text-5xl font-extrabold tracking-wide mt-3 text-center">{props.price}</span>
+    return <span className="price text-black text-4xl sm:text-5xl font-extrabold tracking-wide mt-3 text-center">{props.price}</span>
 }
 export let PriceLight = (props) => {
-    return <span className="text-white text-4xl sm:text-5xl font-extrabold tracking-wide mt-3 text-center">{props.price}</span>
+    return <span className="price text-white text-4xl sm:text-5xl font-extrabold tracking-wide mt-3 text-center">{props.price}</span>
 }
 export let PricingButtonDark = (props) => {
     return <button className="md:w-80 xl:w-full inline-block text-center get_invite px-7 bg-black text-white text-xs font-semibold py-3 tracking-widest hover:bg-gray-200 hover:text-black duration-500 mt-6">PICK A PLAN</button>
