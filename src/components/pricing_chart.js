@@ -16,7 +16,7 @@ export let PricingChartContainer = () => {
 }
 export let PricingBlack = (props) => {
     return (
-        <div className="relative flex bg-black flex-col gap-4 md:items-left xl:items-center justify-center px-8 py-8 sm:py-16 box-border flex-shrink xl:w-full lg:w-3/4 md:w-full">
+        <div className="pricing_black_container relative flex bg-black flex-col gap-4 md:items-left xl:items-center justify-center px-4 sm:px-8 py-8 sm:py-16 box-border flex-shrink xl:w-full lg:w-3/4 md:w-full">
             <PricingChartHeadingLight heading={props.heading}/>
             <Text text={props.text}/>  
             <div className="flex flex-col md:absolute xl:relative top-0 right-0">       
@@ -29,7 +29,7 @@ export let PricingBlack = (props) => {
 }
 export let PricingGray = (props) => {
     return (
-        <div className="relative flex bg-gray-100 flex-col gap-4 md:items-left xl:items-center justify-center px-8 py-8 sm:py-16 box-border flex-shrink xl:w-full lg:w-3/4 md:w-full">
+        <div className="relative flex bg-gray-100 flex-col gap-4 md:items-left xl:items-center justify-center px-4 sm:px-8 py-8 sm:py-16 box-border flex-shrink xl:w-full lg:w-3/4 md:w-full">
             <PricingChartHeadingDark heading={props.heading}/>
             <TextDark text={props.text}/>   
             <div className="flex flex-col md:absolute xl:relative top-0 right-0">
